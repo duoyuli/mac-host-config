@@ -5,8 +5,9 @@
 这是我个人 Mac 的终端与开发环境配置备份：Zsh、tmux、Starship、Sheldon、npm 和一键升级脚本 `up`。新电脑把下文的提示词交给 Coding Agent，由它按本文完成安装和部署。
 
 - **启动快**：PATH 去重、SDKMAN 惰性加载、补全缓存，终端打开不等待。
-- **Node 稳**：默认锁定 `node@24`，只跟随 24.x 小版本升级。
 - **升级省心**：`up` 一条命令升级 Coding Agent、Homebrew 和 npm / pnpm / bun 全局包，并检查全局包没有丢失。
+- **开发环境稳**：Java、Python、Rust、Node 都有集成，默认锁定 `node@24`，只跟随 24.x 小版本升级。
+
 
 ---
 
@@ -30,7 +31,7 @@
 阅读 https://raw.githubusercontent.com/duoyuli/mac-host-config/refs/heads/main/README.md，在这台 Mac 上安装「组件说明」中列出的全部软件，并部署「仓库内容」中的配置文件。
 
 要求：
-1. 现在临时目录克隆当前仓库内容，https://github.com/duoyuli/mac-host-config.git
+1. 在临时目录克隆当前仓库内容，https://github.com/duoyuli/mac-host-config.git
 2. 严格遵守 README 中「安装约束」一节的顺序和注意事项。
 3. 已经安装的软件跳过，不要重装或降级。
 4. 覆盖 ~ 下已有的配置文件前，先备份为 <文件名>.bak。
