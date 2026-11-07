@@ -1,0 +1,80 @@
+"$schema" = "https://starship.rs/config-schema.json"
+
+format = """
+$hostname\
+$directory\
+$git_branch\
+$git_commit\
+$git_state\
+$git_status\
+$bun\
+$golang\
+$java\
+$nodejs\
+$python\
+$rust\
+$nix_shell\
+$conda\
+$pixi\
+$cmd_duration\
+$line_break\
+$character\
+"""
+
+[aws]
+symbol = "aws "
+
+[bun]
+symbol = "bun "
+
+[conda]
+symbol = "conda "
+
+[directory]
+truncation_length = 0
+truncate_to_repo = false
+read_only = " [ro]"
+
+[gcloud]
+symbol = "gcp "
+
+[git_branch]
+format = "[$symbol$branch]($style) "
+symbol = "git: "
+
+[git_status]
+conflicted = "!"
+ahead = "↑"
+behind = "↓"
+diverged = "↕"
+up_to_date = ""
+untracked = "?"
+stashed = "$"
+modified = "!"
+staged = "+"
+renamed = ">"
+deleted = "x"
+
+[golang]
+symbol = "go "
+
+[java]
+symbol = "java "
+
+[hostname]
+ssh_symbol = "ssh "
+
+[nix_shell]
+symbol = "nix "
+
+[nodejs]
+symbol = "node "
+
+[pixi]
+symbol = "pixi "
+
+[python]
+symbol = "python "
+
+[rust]
+symbol = "rust "
