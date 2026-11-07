@@ -30,11 +30,12 @@
 阅读 https://raw.githubusercontent.com/duoyuli/mac-host-config/refs/heads/main/README.md，在这台 Mac 上安装「组件说明」中列出的全部软件，并部署「仓库内容」中的配置文件。
 
 要求：
-1. 严格遵守 README 中「安装约束」一节的顺序和注意事项。
-2. 已经安装的软件跳过，不要重装或降级。
-3. 覆盖 ~ 下已有的配置文件前，先备份为 <文件名>.bak。
-4. 需要我手动操作的步骤（系统弹窗、启动 GUI 应用、输入密码）停下来告诉我，完成后再继续。
-5. 全部完成后，在新的 zsh 中验证：node -v 为 v24.x，starship、sheldon、tmux、yazi、claude、grok 均可执行；列出失败或跳过的项目。
+1. 现在临时目录克隆当前仓库内容，https://github.com/duoyuli/mac-host-config.git
+2. 严格遵守 README 中「安装约束」一节的顺序和注意事项。
+3. 已经安装的软件跳过，不要重装或降级。
+4. 覆盖 ~ 下已有的配置文件前，先备份为 <文件名>.bak。
+5. 需要我手动操作的步骤（系统弹窗、启动 GUI 应用、输入密码）停下来告诉我，完成后再继续。
+6. 全部完成后，在新的 zsh 中验证：node -v 为 v24.x，starship、sheldon、tmux、yazi、claude、grok 均可执行；列出失败或跳过的项目。
 ```
 
 ### 安装约束
