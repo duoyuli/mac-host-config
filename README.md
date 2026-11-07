@@ -27,7 +27,7 @@
 在新 Mac 上把本仓库放到本地，在仓库目录中启动 Coding Agent，然后发送以下提示词：
 
 ```text
-阅读本仓库的 README.md，在这台 Mac 上安装「组件说明」中列出的全部软件，并部署「仓库内容」中的配置文件。
+阅读 https://raw.githubusercontent.com/duoyuli/mac-host-config/refs/heads/main/README.md，在这台 Mac 上安装「组件说明」中列出的全部软件，并部署「仓库内容」中的配置文件。
 
 要求：
 1. 严格遵守 README 中「安装约束」一节的顺序和注意事项。
