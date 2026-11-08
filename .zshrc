@@ -64,7 +64,10 @@ alias tls='tmux ls'
 alias tkt='tmux kill-session -t'
 ## Agents
 alias att='cd ~/.agents-tmp'
+## 官方订阅，Login 登录
 alias cc='claude --dangerously-skip-permissions'
+## 非订阅，模型替换为三方模型
+alias ccds='CLAUDE_CONFIG_DIR="$HOME/.claude-third" claude --dangerously-skip-permissions'
 
 # Starship：shell 补全提示符；安装：brew install starship
 (( $+commands[starship] )) && eval "$(command starship init zsh)"
